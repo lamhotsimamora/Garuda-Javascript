@@ -1,5 +1,20 @@
 # New version of Garuda Javacript 2 | With ES5 & ES6 Style
 
+## 
+```
+$my_btn.when("click",$=>{
+  // Do something 
+});
+
+$getComment = __({
+    url:"https://jsonplaceholder.typicode.com/comments/1",
+    method:"get"
+});
+
+$getComment.request($response=>{
+    _a($response);
+});
+```
 
 ## Clone 
 ```
