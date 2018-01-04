@@ -1,6 +1,8 @@
 /**
  * License : https://raw.githubusercontent.com/lamhotsimamora/Garuda-Javascript/master/LICENSE
- * Author : lamhot Simamora
+ * Author  : @lamhotsimamora
+ * {{ Garuda Javascript 2 }}
+ * Copyright@2018
  */
 
 "use strict"
