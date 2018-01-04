@@ -3,12 +3,25 @@
 # New version of Garuda Javacript
 
 
-Clone 
-
+## Clone 
+```
 git clone https://github.com/lamhotsimamora/Garuda-Javascript.git
+```
 
-
-HTML
+## HTML For Development
+```
 <script type="text/javascript" src="src/garuda.js"></script>
+```
+
+## HTML For Production
+```
+<script type="text/javascript" src="https://cdn.rawgit.com/lamhotsimamora/Garuda-Javascript/master/src/garuda.js"></script>
+```
+
+## CDN
+```
+https://cdn.rawgit.com/lamhotsimamora/Garuda-Javascript/master/src/garuda.js
+```
+
 
 
