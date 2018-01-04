@@ -1,4 +1,4 @@
-# New version of Garuda Javacript 2 | With ES5 & ES6 Style
+# A Moder Query Of Javascript | Garuda Javacript 2 | ES5 & ES6 Style
 
 ## 
 ```
