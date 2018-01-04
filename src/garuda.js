@@ -136,13 +136,13 @@ class _$e$_ extends _$a$_
 {  
      when(d,cb)
      {
-     	 if (d)
-     	 {
-     	 	if (this.getObj)
-     	 	{
-     	 		((cb!=undefined) && _isFunction(cb)) ? this.getObj.addEventListener(d, cb) : false;
-     	 	}
-     	 } 
+         if (d)
+         {
+            if (this.getObj)
+            {
+                ((cb!=undefined) && _isFunction(cb)) ? this.getObj.addEventListener(d, cb) : false;
+            }
+         } 
      }
      get __HV__()
      {
