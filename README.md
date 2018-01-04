@@ -1,4 +1,4 @@
-# A Moder Query Of Javascript | Garuda Javacript 2 | ES5 & ES6 Style
+# A Modern Query Of Javascript | Garuda Javacript 2 | ES5 & ES6 Style
 
 ## 
 ```
