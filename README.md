@@ -16,6 +16,11 @@ $getComment.request($response=>{
 });
 ```
 
+## Install
+```
+npm i garudajavascript2
+```
+
 ## Clone 
 ```
 git clone https://github.com/lamhotsimamora/Garuda-Javascript.git
