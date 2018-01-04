@@ -1,0 +1,24 @@
+{
+  "name": "garudajavascript2",
+  "version": "1.0.0",
+  "description": "A Modern Query of Javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "_writeLog(\"Hello World\");"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamhotsimamora/Garuda-Javascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "query",
+    "garuda"
+  ],
+  "author": "Lamhot Simamora <lamhotsimamora36@gmail.com> (bit.ly/GarudaJavascript2)",
+  "license": "SEE LICENSE IN <LICENSE>",
+  "bugs": {
+    "url": "https://github.com/lamhotsimamora/Garuda-Javascript/issues"
+  },
+  "homepage": "https://github.com/lamhotsimamora/Garuda-Javascript#readme"
+}
