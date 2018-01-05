@@ -28,7 +28,7 @@ git clone https://github.com/lamhotsimamora/Garuda-Javascript.git
 
 ## HTML For Development
 ```
-<script type="text/javascript" src="src/garuda.js"></script>
+<script type="text/javascript" src="https://lamhotsimamora.github.io/Garuda-Javascript/src/garuda.js"></script>
 ```
 
 ## HTML For Production
@@ -39,6 +39,7 @@ git clone https://github.com/lamhotsimamora/Garuda-Javascript.git
 ## CDN
 ```
 https://cdn.rawgit.com/lamhotsimamora/Garuda-Javascript/master/src/garuda.js
+https://lamhotsimamora.github.io/Garuda-Javascript/src/garuda.js
 ```
 
 ## Demo
