@@ -30,6 +30,10 @@ _documentReady($=>{
 	$btn_get_set = __({
 		el:"btn_get_set"
 	});
+	$btn_print = __({
+		el:"btn_print"
+	});
+	
 
 	$txt_set_content = __({
 		el:"txt_set_content"
@@ -100,12 +104,33 @@ _documentReady($=>{
 	$btn_scroll = __({
 		el:"btn_scroll"
 	});
+	$btn_scroll_2 = __({
+		el:"btn_scroll_2"
+	});
 
 
 	$btn_scroll.when("click",$=>{
 		_scrollTo({
 			x:0,
 			y:0
+		});
+	});
+	$btn_scroll_2.when("click",$=>{
+		_scrollTo({
+			el:"center_body"
+		});
+	});
+
+	$print_this_element = __({
+		el:"print_this_element"
+	});
+
+	$btn_print.when("click",$=>{
+		$print_this_element.print({
+			title:"My Report",
+			width:500,
+			height:500,
+			footer:"Copyright@2018"
 		});
 	});
 

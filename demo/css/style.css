@@ -18,6 +18,7 @@
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    font-size: 10px;
 }
 
 .button1 {
