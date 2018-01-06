@@ -33,11 +33,11 @@ https://lamhotsimamora.github.io/Garuda-Javascript/src/garuda.js
 ```
 ## Full script
 ```
-<script type="text/javascript" src="https://www.cdn.lamhotsimamora.com/garuda2/ "></script>
+<script type="text/javascript" src="https://www.cdn.lamhotsimamora.com/garuda2/"></script>
 ```
 ## Full script
 ```
-<script type="text/javascript" src="https://www.cdn.lamhotsimamora.com/garuda2/ "></script>
+<script type="text/javascript" src="https://lamhotsimamora.github.io/Garuda-Javascript/src/garuda.js"></script>
 ```
 
 ## CDN For Production (Not Recommended, No Guaranteed)
