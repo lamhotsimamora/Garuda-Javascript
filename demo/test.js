@@ -96,4 +96,17 @@ _documentReady($=>{
 		alert("Escape");
 	},_keyCode.escape);
 
+
+	$btn_scroll = __({
+		el:"btn_scroll"
+	});
+
+
+	$btn_scroll.when("click",$=>{
+		_scrollTo({
+			x:0,
+			y:0
+		});
+	});
+
 });	
