@@ -26,12 +26,20 @@ npm i garudajavascript2
 git clone https://github.com/lamhotsimamora/Garuda-Javascript.git
 ```
 
-## HTML For Development
+## CDN For Development (Recommended)
+```
+https://lamhotsimamora.github.io/Garuda-Javascript/src/garuda.js
+```
+## Full script
 ```
 <script type="text/javascript" src="https://lamhotsimamora.github.io/Garuda-Javascript/src/garuda.js"></script>
 ```
 
-## HTML For Production
+## CDN For Production (Not Recommended, No Guaranteed)
+```
+https://cdn.rawgit.com/lamhotsimamora/Garuda-Javascript/master/src/garuda.js
+```
+## Full script
 ```
 <script type="text/javascript" src="https://cdn.rawgit.com/lamhotsimamora/Garuda-Javascript/master/src/garuda.js"></script>
 ```
