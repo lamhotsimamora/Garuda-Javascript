@@ -23,6 +23,21 @@ $getComment.request($response=>{
 });
 ```
 
+# IMPORTANT
+- if (el) with value # then it will be search the class of element
+- if (el) with value without # it will be search the id of element
+- if (el) with value * only it will be search all of element
+```
+$id = __({
+  el:"id"
+});
+$class = __({
+  el:"#class"
+});
+$all = __({
+  el:"*"
+});
+```
 
 ## Install via NPM
 ```
