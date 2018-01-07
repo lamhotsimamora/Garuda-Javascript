@@ -16,8 +16,7 @@ if (data) this.o = (data.el === undefined) ? undefined : data.el; this.class = (
 }
 __gAeL()
 {
-	var o = __gEt("*");
-	return (this.index != undefined) ? o[this.index] : o ;
+	var o = __gEt("*"); return (this.index != undefined) ? o[this.index] : o ; 
 }
 get getAllElement()
 {
