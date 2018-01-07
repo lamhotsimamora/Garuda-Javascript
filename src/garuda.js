@@ -34,9 +34,9 @@ removeAttr()
 {
 if (this.__ty__==true) {if (this.index===undefined) {for (var i = 0; i < this._gLe() ; i++) {this.getObj[i].removeAttribute(this.attr); } } else {if (this.getObj[this.index]===undefined || this.index > this._gLe()) {return null; } var i = this.index; this.getObj[i].removeAttribute(this.attr); } }else if (this.__ty__==false) {this.getObj.removeAttribute(this.attr); }
 }
-setAttr(d)
+setAttr(d) 
 {
-if (d) {if (this.__ty__==true) {}else if (this.__ty__==false) {let k = (d.key) ? d.key : ''; let v = (d.value) ? d.value : ''; (this.getObj != null ) ? this.getObj.setAttribute(k, v) : null; } }
+    if (d) {let k = (d.key) ? d.key : '',v = (d.value) ? d.value : ''; if (this.__ty__ == true) {if (this.index===undefined) {for (var i = 0; i < this._gLe(); i++) {(this.getObj[i] != null) ? this.getObj[i].setAttribute(k, v): null; } }else {if (this.index>this._gLe()) {return null; } (this.getObj[this.index] != null) ? this.getObj[this.index].setAttribute(k, v): null; } } else if (this.__ty__ == false) {(this.getObj != null) ? this.getObj.setAttribute(k, v): null; } }
 }
 getById() 
 {
