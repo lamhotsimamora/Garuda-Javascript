@@ -1,5 +1,7 @@
 _documentReady($=>{
 	
+	
+	
 	_writeLog("Hello...");
 	_writeLog("Hello...",false);
 	_writeLog("Hello...",true);
