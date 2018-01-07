@@ -2,6 +2,13 @@
 
 ### Preview Syntax 
 ```
+$text = __({
+  el:"my_article",
+  html:"<b>Hello World</h1>"
+});
+```
+<a href="https://jsfiddle.net/a6e41c0w/3/">See on JSFiddle</a>
+```
 $my_btn.when("click",$=>{
   // Do something 
 });
@@ -15,6 +22,7 @@ $getComment.request($response=>{
     _a($response);
 });
 ```
+
 
 ## Install via NPM
 ```
