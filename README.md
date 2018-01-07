@@ -7,7 +7,7 @@ $text = __({
   html:"<b>Hello World</h1>"
 });
 ```
-<a href="https://jsfiddle.net/a6e41c0w/3/">See on JSFiddle</a>
+<a href="https://jsfiddle.net/steoa1xn/">See on JSFiddle</a>
 ```
 $my_btn.when("click",$=>{
   // Do something 
