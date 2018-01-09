@@ -1,7 +1,5 @@
 _documentReady($=>{
 	
-	
-	
 	_writeLog("Hello...");
 	_writeLog("Hello...",false);
 	_writeLog("Hello...",true);
@@ -34,6 +32,10 @@ _documentReady($=>{
 	});
 	$btn_print = __({
 		el:"btn_print"
+	});
+
+	$btn_down = __({
+		el:"btn_down"
 	});
 	
 
@@ -136,4 +138,10 @@ _documentReady($=>{
 		});
 	});
 
+	$btn_down.when("click",$=>{
+		_scrollTo({
+			x:2500000,
+			y:2500000
+		});
+	});
 });	
