@@ -4,7 +4,7 @@
 ```
 $text = __({
   el:"my_article",
-  html:"<b>Hello World</h1>"
+  html:"<h1>Hello World</h1>"
 });
 ```
 <a href="https://jsfiddle.net/steoa1xn/1/">See on JSFiddle</a>
