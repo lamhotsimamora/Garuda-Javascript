@@ -182,10 +182,7 @@ var scr = __d.createElement('script'); scr.type = 'text/javascript'; if (scr.rea
 }
 previewImage(d,fu)
 {
-if (d)
-{
-if (__gEi(this.o)==null) {return null; } if (d.substring(0, 1)==='#') {__gEi(this.o).onchange = function() {var r = new FileReader(); r.onload = function(e) {d = d.substring(1,d.length); var nO = __gEc(d); for (var i = 0; i < nO.length; i++) {nO[i].src = ''; nO[i].src = e.target.result; } }; r.onerror = function(e){((fu != undefined) && (_isFunction(fu))) ? fu : ''; }; r.readAsDataURL(this.files[0]); }; } else {__gEi(this.o).onchange = function() {var r = new FileReader(); r.onload = function(e) {__gEi(d).src = e.target.result; }; r.onerror = function(e){((fu != undefined) && (_isFunction(fu))) ? fu : ''; }; r.readAsDataURL(this.files[0]); }; }
-}
+	if (d) {if (__gEi(this.o) == undefined) {return null; } let _oI = _whatThis(d)==='string' ? __gEi(d) : d; if (_whatThis(d)==='string' && d.substring(0, 1) === '#') {try{__gEi(this.o).onchange = function() {var r = new FileReader(); r.onload = function(e) {let o_to = d.substring(1, d.length); var nO = __gEc(o_to); for (var i = 0; i < nO.length; i++) {nO[i].src = ''; nO[i].src = e.target.result; } }; r.onerror = function(e) {(fu != undefined && _isFunction(fu)) ? fu: ''; }; r.readAsDataURL(this.files[0]); }; }catch(e) {_writeLog(e); } } else{single(__gEi(this.o),_oI); } } function single(a,b) {try{a.onchange = function() {let r = new FileReader(); r.onload = function(e) {b.src = e.target.result; }; r.onerror = function(e) {(fu != undefined && _isFunction(fu)) ? fu: ''; }; r.readAsDataURL(this.files[0]); }; }catch(e) {_writeLog(e); } }
 }
 key(fc,kx) 
 {
