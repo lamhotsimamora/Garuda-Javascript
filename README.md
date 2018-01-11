@@ -78,8 +78,14 @@ http://bit.ly/GarudaJavascript2
 ```
 
 ## Demo Code
+1. String Char Code Example 
 https://lamhotsimamora.github.io/String-Char-Code/
+
+2. Get Type Of Variable / VarDump In Javascript   
 https://jsfiddle.net/LamhotSimamora/7p1s5u9z/embedded/js,html,result/dark/#Result
+
+3. Money Format Example
+https://jsfiddle.net/LamhotSimamora/aqtjof42/embedded/js,html,result/dark/#Result
 
 ----------------
 
