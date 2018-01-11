@@ -87,6 +87,9 @@ https://jsfiddle.net/LamhotSimamora/7p1s5u9z/embedded/js,html,result/dark/#Resul
 3. Money Format Example
 https://jsfiddle.net/LamhotSimamora/aqtjof42/embedded/js,html,result/dark/#Result
 
+4. More
+https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
+
 ----------------
 
 ### Want to buy me a cup of coffee ?
