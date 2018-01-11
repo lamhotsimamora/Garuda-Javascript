@@ -7,7 +7,7 @@ $text = __({
   html:"<h1>Hello World</h1>"
 });
 ```
-<a href="https://jsfiddle.net/steoa1xn/1/">See on JSFiddle</a>
+
 ```
 $my_btn.when("click",$=>{
   // Do something 
@@ -22,6 +22,7 @@ $getComment.request($response=>{
     _a($response);
 });
 ```
+<a href="https://jsfiddle.net/steoa1xn/1/">See on JSFiddle</a>
 
 # IMPORTANT
 - if (el) with value # then it will be search the class of element
@@ -38,6 +39,8 @@ $all = __({
   el:"*"
 });
 ```
+--------------------
+# Getting Started
 
 ## Install via NPM
 ```
@@ -73,6 +76,12 @@ https://cdn.rawgit.com/lamhotsimamora/Garuda-Javascript/master/src/garuda.js
 ```
 http://bit.ly/GarudaJavascript2
 ```
+
+## Demo Code
+https://lamhotsimamora.github.io/String-Char-Code/
+https://jsfiddle.net/LamhotSimamora/7p1s5u9z/embedded/js,html,result/dark/#Result
+
+----------------
 
 ### Want to buy me a cup of coffee ?
 <a href="http://ko-fi.com/Z8Z579XC">Yes</a>
