@@ -87,7 +87,10 @@ https://jsfiddle.net/LamhotSimamora/7p1s5u9z/embedded/js,html,result/dark/#Resul
 3. Money Format Example
 https://jsfiddle.net/LamhotSimamora/aqtjof42/embedded/js,html,result/dark/#Result
 
-4. More
+4. Input text required
+https://jsfiddle.net/LamhotSimamora/xrLsveLj/embedded/js,html,result/dark/#Result
+
+5. More
 https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
 
 ----------------
