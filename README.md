@@ -52,6 +52,9 @@ npm i garudajavascript2
 git clone https://github.com/lamhotsimamora/Garuda-Javascript.git
 ```
 
+## Download Source Code
+https://github.com/lamhotsimamora/Garuda-Javascript/archive/v.1.0.0.zip
+
 --------------------------------
 ## CDN For Development or Production (Recommended)
 ```
