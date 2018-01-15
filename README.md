@@ -83,10 +83,13 @@ https://jsfiddle.net/LamhotSimamora/7p1s5u9z/embedded/js,html,result/dark/#Resul
 3. Money Format Example
 https://jsfiddle.net/LamhotSimamora/aqtjof42/embedded/js,html,result/dark/#Result
 
-4. Input text required
+4. Input text (required)
 https://jsfiddle.net/LamhotSimamora/xrLsveLj/embedded/js,html,result/dark/#Result
 
-5. More
+5. Input text (set value and focus)
+https://jsfiddle.net/LamhotSimamora/9gdre734/embedded/js,html,result/dark/#Result
+
+6. More
 https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
 
 ----------------
