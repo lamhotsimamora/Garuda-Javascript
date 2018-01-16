@@ -92,10 +92,13 @@ https://jsfiddle.net/LamhotSimamora/xrLsveLj/embedded/js,html,result/dark/#Resul
 5. Input text (set value and focus)
 https://jsfiddle.net/LamhotSimamora/9gdre734/embedded/js,html,result/dark/#Result
 
-6. More 1
+6. AJAX
+https://lamhotsimamora.github.io/Modern-Ajax-Garuda-Javascript/
+
+7. More 1
 https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
 
-7. More 2
+8. More 2
 https://jsfiddle.net/LamhotSimamora/ukhasz6b/1/embedded/js,html,result/dark/#Result
 
 ----------------
