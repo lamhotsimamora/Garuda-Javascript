@@ -33,7 +33,7 @@ if (this.__ty__==true) {if (this.index===undefined) {var d = new Array(this._gLe
 }
 disabled()
 {
-	this.setAttr({key:"disabled", value:""}); 
+	this.setAttr({key:'disabled'}); 
 }
 enabled()
 {
