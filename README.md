@@ -28,6 +28,7 @@ $getComment.request($response=>{
 - if (el) with value # then it will be search the class of element
 - if (el) with value without # it will be search the id of element
 - if (el) with value * only it will be search all of element
+- if (el) with value @ then it will be search the tag of element
 ```
 $id = __({
   el:"id"
@@ -100,6 +101,9 @@ https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
 
 8. More 2
 https://jsfiddle.net/LamhotSimamora/ukhasz6b/1/embedded/js,html,result/dark/#Result
+
+9. More 3
+https://jsfiddle.net/LamhotSimamora/tgrhabj6/embedded/js,html,result/dark/#Result
 
 ## Demo On Youtube
 https://www.youtube.com/watch?v=uyHGiiSn2wo
