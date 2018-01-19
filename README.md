@@ -1,5 +1,12 @@
 # A Modern Query Of Javascript | Garuda Javacript 2 | ES5 & ES6 Style
 
+## Features
+- Support Template Syntax
+- Support Find Class Element
+- Support Find Tag Element
+- Support Defined Event
+- Pretty Code
+
 ### Preview Syntax 
 ```
 $text = __({
@@ -20,6 +27,16 @@ $getComment = __({
 
 $getComment.request($response=>{
     _a($response);
+});
+
+__({
+  el:"@p",
+  html:{
+  	 single:{
+         name:"Lamhot",
+         email:"Lamhot@gmail.com"
+     }
+  }
 });
 ```
 <a href="https://jsfiddle.net/steoa1xn/1/">See on JSFiddle</a>
