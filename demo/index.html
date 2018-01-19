@@ -54,7 +54,7 @@
                     <nav class="navbar">
                         <div class="tm-navbar-bg">                            
                             <a class="navbar-brand text-uppercase" href=".">
-                                <img src="img/garuda.png" width="80" height="40">Garuda Javascript</a>
+                                <img src="img/garuda.png" width="80" height="40"><h4>Garuda Javascript</h4></a>
                             <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#tmNavbar">
                                 &#9776;
                             </button>
@@ -64,13 +64,16 @@
                                         <a class="nav-link" href="#0" data-no="1">Home <span class="sr-only">(current)</span></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#0" data-no="2">Getting Started</a>
+                                        <a class="nav-link" href="#0" data-no="2">Get Started</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#0" data-no="3">Example</a>
+                                        <a class="nav-link" href="#0" data-no="3">Doc</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#0" data-no="4">Follow Us</a>
+                                        <a class="nav-link" href="#0" data-no="4">Example</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#0" data-no="5">Follow Us</a>
                                     </li>
                                 </ul>
                             </div>                        
@@ -115,7 +118,7 @@
                     </div> <!-- .cd-full-width -->
                 </li>
                 
-                <!-- Page 2 About -->
+                <!-- Page 2 Get Started -->
                 <li  id="print_this_element">
                     <div class="cd-full-width">
                         <div class="container js-tm-page-content tm-section-margin-t" data-page-no="2">
@@ -194,7 +197,7 @@
                                             </div>
                                             <div class="tm-bg-dark-blue text-xs-left tm-textbox tm-textbox-padding tm-white-header-body tm-white-border tm-2-col-equal-height">
                                                 <p class="tm-text">
-                                                  <script async src="//jsfiddle.net/bb73p2jk/1/embed/html/dark/"></script>
+                                                  <script async src="//jsfiddle.net/LamhotSimamora/3mvhhpa3/embed/html,result/dark/"></script>
                                                 </p>                                            
                                             </div>    
                                         </div>
@@ -208,54 +211,65 @@
                                     <div class="tm-flex">
                                         <div class="col-lg-6 tm-margin-b tm-2-col-left">
                                             <div class="tm-bg-white tm-textbox-padding tm-height-100">
-                                                <h2 class="tm-text-title tm-text-title-small tm-header-margin-b">Window Document Ready / Onload</h2>
+                                                <h2 class="tm-text-title tm-text-title-small tm-header-margin-b">Window Document Ready</h2>
                                                 <hr>
                                                 <p class="tm-text">
+                                                    *Optional* <br>
                                                     <code style="">
-                                                         _documentReady($=>{ <br>
-																_me.setContent( <br>
-																		"Hello World" <br>
-																);<br>
-                                                         });<br>
+<pre>
+_documentReady($=>{
+    _me.setContent(
+        "Hello World"
+    );
+});
+</pre>
                                                     </code>
                                                 </p> 
-                                                <br>
-                                                <p>
-                                                	<script async src="//jsfiddle.net/bd3uctb7/2/embed/js,html/dark/"></script>
-                                                </p>   
+                                             
                                             </div>                                            
                                         </div>
                                         <div class="col-lg-6 tm-margin-b tm-2-col-right">
                                             <div class="tm-bg-white tm-textbox-padding tm-height-100">
-                                                <h2 class="tm-text-title tm-text-title-small tm-header-margin-b">Create one object</h2>
+                                                <h2 class="tm-text-title tm-text-title-small tm-header-margin-b">Create an object</h2>
                                                 <hr>
                                                 <p class="tm-text">
+                                                    *Important* <br>
                                                     <code style="">
-                                                        // with id of element<br>
-                                                        $obj = __({<br>
-                                                           el:"id"<br>
-                                                        });<br>
-
-                                                        
-                                                    </code>
+<pre>
+$obj = __({
+  el:"element"
+});
+</pre><br>
+                                                    </code><br>
+                                                    Or <br>
+<pre>
+$obj = _garuda({
+  el:"element"
+});
+</pre><br>
+                                                    Or <br>
+                                                    <pre>
+$obj = _GF({
+  el:"element"
+});
+</pre><br>
                                                 </p>
                                             </div>
                                         </div> 
                                         <div class="col-lg-6 tm-margin-b tm-2-col-left">
                                             <div class="tm-bg-white tm-textbox-padding tm-height-100">
-                                                <h2 class="tm-text-title tm-text-title-small tm-header-margin-b">Or</h2>
+                                                <h2 class="tm-text-title tm-text-title-small tm-header-margin-b">Try Hello World</h2>
                                                 <hr>
                                                 <p class="tm-text">
-                                                    <code style="">
-                                                        // with class of element<br>
-                                                        $obj = _garuda({<br>
-                                                           el:"#class"<br>
-                                                        });<br><br>
-                                                        
-                                                        $obj = _GF({<br>
-                                                           el:"#class"<br>
-                                                        });<br>
-                                                    </code>
+                                                  Templating Syntax
+                                                  <script async src="//jsfiddle.net/LamhotSimamora/0t5tygeo/embed/js,html,result/dark/"></script>  
+                                                  <br>
+                                                  Standart Syntax
+                                                  <script async src="//jsfiddle.net/LamhotSimamora/rzen0wjw/embed/js,html,result/dark/"></script>
+
+                                                  
+                                                  <script async src="//jsfiddle.net/LamhotSimamora/qoL5rpmt/embed/js,html,result/dark/"></script>
+
                                                 </p>    
                                             </div>                                            
                                         </div>
@@ -277,8 +291,213 @@
                 </li>
                
                <br>
-              
-                <!-- Page 3 Gallery -->
+                 <!-- Page 3 Doc -->
+                <li  id="print_this_element">
+                    <div class="cd-full-width">
+                        <div class="container js-tm-page-content tm-section-margin-t" data-page-no="3">
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                        <div class="col-lg-6 tm-white-header-container-outer tm-margin-b tm-2-col-right">
+                                            <div class="tm-bg-white tm-white-header-container">
+                                                <h2 class="tm-text-title tm-text-title-small">Introduction</h2>
+                                            </div>
+                                            <div class="tm-bg-dark-blue text-xs-left tm-textbox tm-textbox-padding tm-white-header-body tm-white-border tm-2-col-equal-height">
+                                                <p class="tm-text">
+                                                    Garuda Javascript 2 is modern query of javascript which you can used for building amazing user interface. <br>
+                                                    <br>
+                                                    Garuda Javascript 2 has identical symbol double underscore  ( __ ) for signature. 
+                                                    <br>
+                                                    You can easy to manipulate component / element of HTML 
+                                                    like input text, button, image, canvas, AJAX request & more.
+                                                    <br>
+                                                </p>                                            
+                                            </div>    
+                                        </div>
+                                         
+                                    </div>
+                                </div>                                
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                        <div class="col-lg-6 tm-white-header-container-outer tm-margin-b tm-2-col-right">
+                                            <div class="tm-bg-white tm-white-header-container">
+                                                <h2 class="tm-text-title tm-text-title-small"></h2>
+                                            </div>
+                                            <div class="tm-bg-dark-blue text-xs-left tm-textbox tm-textbox-padding tm-white-header-body tm-white-border tm-2-col-equal-height">
+                                                <p class="tm-text">
+                                                    How about templating syntax ?? 
+                                                    <br><br>
+                                                    Dont worry, Garuda Javascript 2 has been supported templating syntax for single data.
+                                                    <br>
+                                                    <a target="_blank" href="http://jsfiddle.net/LamhotSimamora/chm4wx1a/?utm_source=website&utm_medium=embed&utm_campaign=chm4wx1a"> Example 1</a>
+                                                    <a target="_blank" href="http://jsfiddle.net/LamhotSimamora/j40nemL9/2/?utm_source=website&utm_medium=embed&utm_campaign=j40nemL9"> Example 2</a>
+                                                    <br>
+                                                </p>                                            
+                                            </div>    
+                                        </div>
+                                         
+                                    </div>
+                                </div>                                
+                            </div>
+                             <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                        <div class="col-lg-6 tm-white-header-container-outer tm-margin-b tm-2-col-right">
+                                            <div class="tm-bg-white tm-white-header-container">
+                                                <h2 class="tm-text-title tm-text-title-small"></h2>
+                                            </div>
+                                            <div class="tm-bg-dark-blue text-xs-left tm-textbox tm-textbox-padding tm-white-header-body tm-white-border tm-2-col-equal-height">
+                                                <p class="tm-text">
+                                                    There are 3 basic defined object in Garuda Javascript 2 :<br>
+                                                    1. ID Element<br>
+                                                    2. Class Element<br>
+                                                    3. Tag Element<br>
+                                                </p>                                            
+                                            </div>    
+                                        </div>
+                                         
+                                    </div>
+                                </div>                                
+                            </div>
+                            <hr> 
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                        <div class="col-lg-6 tm-margin-b tm-2-col-left">
+                                            <div class="tm-bg-white tm-textbox-padding tm-height-100">
+                                                <h2 class="tm-text-title tm-text-title-small tm-header-margin-b">1. ID Of Element</h2>
+                                                <hr>
+                                                <p class="tm-text">
+                                                    You can manipulate component/element by id without using any character
+                                                     <hr>
+<code style="">
+<pre>
+$element = __({
+  el:"id_element"
+});
+</pre></code>
+                                                </p> 
+                                                <br>
+                                                <p>
+                                                    <script async src="//jsfiddle.net/bd3uctb7/2/embed/js,html/dark/"></script>
+                                                </p>   
+                                            </div>                                            
+                                        </div>
+                                        <div class="col-lg-6 tm-margin-b tm-2-col-right">
+                                            <div class="tm-bg-white tm-textbox-padding tm-height-100">
+                                                <h2 class="tm-text-title tm-text-title-small tm-header-margin-b">2. Class Of Element</h2>
+                                                <hr>
+                                                You can manipulate component/element by class with defined character #.
+                                                <p class="tm-text">
+<code style="">
+<pre>
+$element = __({
+  el:"#class_element"
+});
+</pre></code>
+                                                </p>
+                                            </div>
+                                        </div> 
+                                        <div class="col-lg-6 tm-margin-b tm-2-col-left">
+                                            <div class="tm-bg-white tm-textbox-padding tm-height-100">
+                                                <h2 class="tm-text-title tm-text-title-small tm-header-margin-b">3. Tag Of Element</h2>
+                                                <hr>
+                                                <p class="tm-text">
+                                                     You can manipulate component/element by tag with defined character @.
+                                                     <hr>
+<code style="">
+<pre>
+$element = __({
+  el:"@tag_element"
+});
+</pre></code>
+                                                </p>    
+                                            </div>                                            
+                                        </div>
+                                                                           
+                                    </div>
+                                </div>                                
+                            </div>
+<div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                        <div class="col-lg-6 tm-white-header-container-outer tm-margin-b tm-2-col-right">
+                                            <div class="tm-bg-white tm-white-header-container">
+                                                <h2 class="tm-text-title tm-text-title-small">Features</h2>
+                                            </div>
+                                            <div class="tm-bg-dark-blue text-xs-left tm-textbox tm-textbox-padding tm-white-header-body tm-white-border tm-2-col-equal-height">
+                                                <p class="tm-text">
+                                                    <h4 style="color: white">
+                                                   What can i do with Garuda Javascript 2  ? <br><br>
+                                                   1.  Get and Set HTML (innerHTML and Outer HTML) <br>
+                                                   2.  Load Image From URL<br>
+                                                   3.  Ajax Request (Get, Post, Put & Delete)<br>
+                                                   4.  Get, Set, Clear, and Focus Value Input Text<br>
+                                                   5.  Get, Set, and Remove Attribute<br>
+                                                   6.  Get and Set Storage Browser<br>
+                                                   7.  Custom Console Log<br>
+                                                   8.  Drawing text and image to Canvas, Clear canvas.<br>
+                                                   9.  Get value of date, month, and year (Indonesia and English language)<br>
+                                                   10. Get, Set, and Delete Cookie.<br>
+                                                  </h4>
+                                                </p>                                            
+                                            </div>    
+                                        </div>
+                                         
+                                    </div>
+                                </div> 
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                        <div class="col-lg-6 tm-white-header-container-outer tm-margin-b tm-2-col-right">
+                                            <div class="tm-bg-white tm-white-header-container">
+                                                <h2 class="tm-text-title tm-text-title-small"></h2>
+                                            </div>
+                                            <div class="tm-bg-dark-blue text-xs-left tm-textbox tm-textbox-padding tm-white-header-body tm-white-border tm-2-col-equal-height">
+                                                <p class="tm-text"> <h4 style="color: white">
+                                                   11. Open new url (new tab and new form)<br>
+                                                   12. Checking valid email<br>
+                                                   13. Required value for input text<br>
+                                                   14. Scrolling to any element<br>
+                                                   15. Set Event (Click, Double Click, & ...)<br>
+                                                   16. Data Keyboard Code (enter:13,...)<br>
+                                                   17. Get option value and text when selected<br>
+                                                   18. Easy Add value to field of table<br>
+                                                   19. Copy and select from input text<br>
+                                                   20. Import javascript file<br>
+                                                   21. Easy to print any element <br>
+                                                   22. Preview image from input file<br>
+                                                   22. Checking type of variable<br>
+                                                   23. Convert array to JSON<br>
+                                               </h4>
+                                                </p>                                            
+                                            </div>    
+                                        </div>
+                                         
+                                    </div>
+                                </div>                               
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12">
+                                    <div class="tm-flex">
+                                                                              
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>                                                
+                    </div> <!-- .cd-full-width -->
+
+                </li>
+              <br>
+                <!-- Page 4 Example -->
                 <li>
                      <div class="cd-full-width">
 
@@ -765,10 +984,10 @@
                     </div> <!-- .cd-full-width -->
                 </li>
                 
-                <!-- Page 4 Contact -->
+                <!-- Page 5 Follow Us -->
                 <li>
                     <div class="cd-full-width">
-                        <div class="container js-tm-page-content tm-section-margin-t-small" data-page-no="4">                            
+                        <div class="container js-tm-page-content tm-section-margin-t-small" data-page-no="5">                            
                             <div class="tm-contact-page">
                                 <div class="row tm-margin-b">
                                     <div class="col-xs-12">
