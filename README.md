@@ -96,13 +96,16 @@ https://jsfiddle.net/LamhotSimamora/9gdre734/embedded/js,html,result/dark/#Resul
 6. AJAX
 https://lamhotsimamora.github.io/Modern-Ajax-Garuda-Javascript/
 
-7. More 1
+7. Template Syntax ? 
+https://jsfiddle.net/LamhotSimamora/k8bpb48z/embedded/js,html,result/dark/#Result
+
+8. More 1
 https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
 
-8. More 2
+9. More 2
 https://jsfiddle.net/LamhotSimamora/ukhasz6b/1/embedded/js,html,result/dark/#Result
 
-9. More 3
+10. More 3
 https://jsfiddle.net/LamhotSimamora/tgrhabj6/embedded/js,html,result/dark/#Result
 
 ## Demo On Youtube
