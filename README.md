@@ -1,7 +1,7 @@
 # A Modern Query Of Javascript | Garuda Javacript 2 | ES5 & ES6 Style
 
 ## Features
-- Support Template Syntax (single data) and (multiple data)
+- Support Template Syntax (single data) and *new* (multiple data)
 - Support Find Class Element
 - Support Find Tag Element
 - Support Defined Event Multi Element
@@ -117,6 +117,7 @@ https://lamhotsimamora.github.io/Modern-Ajax-Garuda-Javascript/
 7. Syntax Templating  
 https://jsfiddle.net/LamhotSimamora/k8bpb48z/embedded/js,html,result/dark/#Result
 https://jsfiddle.net/LamhotSimamora/chm4wx1a/embedded/js,html,result/dark/#Result
+https://jsfiddle.net/LamhotSimamora/655d1bon/2/embedded/js,html,result/dark/#Result
 
 8. More 1
 https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
