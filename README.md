@@ -128,8 +128,8 @@ https://jsfiddle.net/LamhotSimamora/ukhasz6b/1/embedded/js,html,result/dark/#Res
 https://jsfiddle.net/LamhotSimamora/tgrhabj6/embedded/js,html,result/dark/#Result
 
 ## Demo On Youtube
-https://www.youtube.com/watch?v=uyHGiiSn2wo
-https://www.youtube.com/watch?v=xwGnKWGXPx4
+1. part 1 https://www.youtube.com/watch?v=uyHGiiSn2wo
+2. part 2 https://www.youtube.com/watch?v=xwGnKWGXPx4
 
 ## Example On The Fly
 
