@@ -131,6 +131,20 @@ https://jsfiddle.net/LamhotSimamora/tgrhabj6/embedded/js,html,result/dark/#Resul
 https://www.youtube.com/watch?v=uyHGiiSn2wo
 https://www.youtube.com/watch?v=xwGnKWGXPx4
 
+## Example On The Fly
+
+1. Notification
+https://github.com/lamhotsimamora/Notification-Garuda-Javascript
+
+2. Card Template
+https://github.com/lamhotsimamora/Card-Template-Garuda-Javascript-2
+
+3. Best Hero ML
+https://github.com/lamhotsimamora/Best-Hero-Mobile-Legend
+
+4. Searching Image PIXEBAY
+https://github.com/lamhotsimamora/Search-Image-Pixebay
+
 
 ----------------
 
