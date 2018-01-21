@@ -1,7 +1,7 @@
 # A Modern Query Of Javascript | Garuda Javacript 2 | ES5 & ES6 Style
 
 ## Features
-- Support Template Syntax (single data)
+- Support Template Syntax (single data) and (multiple data)
 - Support Find Class Element
 - Support Find Tag Element
 - Support Defined Event Multi Element
