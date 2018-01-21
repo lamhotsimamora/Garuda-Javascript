@@ -37,6 +37,10 @@ _documentReady($=>{
 	$btn_down = __({
 		el:"btn_down"
 	});
+
+	$btn_templating1 = __({
+	  el:"btn_templating1"
+	});
 	
 
 	$txt_set_content = __({
@@ -144,4 +148,38 @@ _documentReady($=>{
 			y:2500000
 		});
 	});
+
+
+	/**
+	 * Example Templating Syntax
+	 * Single Data
+	 */
+	$btn_templating1.when('click',$=>{
+		  __({
+		  	el:"biodata",
+		  	html:{
+		  	  single:{
+		  	  	username:"Lamhot Simamora",
+		  	  	age:17,
+		  	  	address:"Indonesia",
+		  	  	email:"LamhotSimamora36@gmail.com"
+		  	  }
+		  	}
+		  });
+	});
+
+	/**
+	 * Example Templating Syntax
+	 * Multiple Data
+	 */
+	/* __({
+	  	el:"list_frameworks",
+		html:{
+			multi: [
+			  { FrameworkName : 'Garuda Javascript' },
+			  { FrameworkName : 'Angular' },
+			  { FrameworkName : 'React' }
+			]
+		}
+	  });*/
 });	
