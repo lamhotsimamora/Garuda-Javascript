@@ -39,6 +39,10 @@ __({
      }
   }
 });
+
+@start@
+   Hello #username# !
+@end@
 ```
 <a href="https://jsfiddle.net/steoa1xn/1/">See on JSFiddle</a>
 
@@ -113,6 +117,7 @@ https://lamhotsimamora.github.io/Modern-Ajax-Garuda-Javascript/
 https://jsfiddle.net/LamhotSimamora/k8bpb48z/embedded/js,html,result/dark/#Result
 https://jsfiddle.net/LamhotSimamora/chm4wx1a/embedded/js,html,result/dark/#Result
 https://jsfiddle.net/LamhotSimamora/655d1bon/2/embedded/js,html,result/dark/#Result
+https://jsfiddle.net/pdj35gv4/embedded/js,html,result/dark/#Result
 
 8. More 1
 https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
