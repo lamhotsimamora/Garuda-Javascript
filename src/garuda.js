@@ -29,6 +29,10 @@ _gAt(c)
 {
 if (this.__ty__==true) {if (this.index===undefined) {var d = new Array(this._gLe()); for (var i = 0; i < this._gLe() ; i++) {d[i] = this.getObj[i].getAttribute(this.attr); } return JSON.stringify(d); }else{var i = this.index; if (this.getObj[i]===undefined) {return null; } return this.getObj[i].getAttribute(this.attr); } } else if (this.__ty__==false) {return (this.attr != null && this.getObj != null) ? this.getObj.getAttribute(this.attr) : null; }
 }
+delete()
+{
+if (this.__ty__==true || this.__ty__==null) {if (this.index===undefined) {for (var i = 0; i < this._gLe(); i++) {this.getObj[i].outerHTML = ''; } }else{if (this.index > this._gLe()) {return; } this.getObj[this.index].outerHTML = ''; } }else if (this.__ty__==false) {this.getObj.outerHTML = ''; } 
+}
 disabled()
 {
 this.setAttr({key:'disabled'}); 
@@ -50,7 +54,7 @@ return this._gAt();
 }
 removeAttr(d)
 {
-var attr; if (d) {attr = d ? d : this.attr; } if (this.__ty__ == true) {if (this.index === undefined) {for (var i = 0; i < this._gLe(); i++) { this.getObj[i].removeAttribute(attr); } } else {if (this.getObj[this.index] === undefined || this.index > this._gLe()) { return null; } var i = this.index; this.getObj[i].removeAttribute(attr); } } else if (this.__ty__ == false) {this.getObj.removeAttribute(attr); }
+var aT; if (d) { aT = d ? d : this.aT; } if (this.__ty__ == true || this.__ty__ == null) {if (this.index === undefined) {for (var i = 0; i < this._gLe(); i++) {this.getObj[i].removeAttribute(aT); } } else {if (this.getObj[this.index] === undefined || this.index > this._gLe()) { return null; } this.getObj[this.index].removeAttribute(aT); } } else if (this.__ty__ == false) { this.getObj.removeAttribute(aT); } 
 }
 setAttr(d) 
 {
@@ -78,7 +82,7 @@ if (this.__ty__==true || this.__ty__==null) {if (this.index===undefined) {for (v
 }
 show()
 {
-if (this.__ty__==true || this.__ty__==null) {if (this.index===undefined) {for (var i = 0; i < this._gLe(); i++) {(this.getObj[i]===undefined) ? undefined : __sS_(this.getObj[i]); } }else {if (this.index > this._gLe()) {return null; } __sS_(this.getObj[this.index]); } }else if (this.__ty__==false) {return (this.getObj===undefined) ? undefined : __sS_(this.getObj); } 
+if (this.__ty__ == true || this.__ty__ == null) {if (this.index === undefined) {for (var i = 0; i < this._gLe(); i++) {(this.getObj[i] === undefined) ? undefined : this.getObj[i].removeAttribute('style'); } } else {if (this.index > this._gLe()) { return null; } this.getObj[this.index].removeAttribute('style'); } } else if (this.__ty__ == false) {return (this.getObj === undefined) ? undefined :this.getObj.removeAttribute('style'); } 
 }
 _gc() 
 {
