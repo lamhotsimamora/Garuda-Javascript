@@ -95,37 +95,41 @@ http://bit.ly/GarudaJavascript2
 ```
 
 ## Demo Code
-1. String Char Code Example 
+1.  String Char Code Example 
 https://lamhotsimamora.github.io/String-Char-Code/
 
-2. Get Type Of Variable / VarDump In Javascript   
+2.  Get Type Of Variable / VarDump In Javascript   
 https://jsfiddle.net/LamhotSimamora/7p1s5u9z/embedded/js,html,result/dark/#Result
 
-3. Money Format Example
+3.  Money Format Example
 https://jsfiddle.net/LamhotSimamora/aqtjof42/embedded/js,html,result/dark/#Result
 
-4. Input text (required)
+4.  Input text (required)
 https://jsfiddle.net/LamhotSimamora/xrLsveLj/embedded/js,html,result/dark/#Result
 
-5. Input text (set value and focus)
+5.  Input text (set value and focus)
 https://jsfiddle.net/LamhotSimamora/9gdre734/embedded/js,html,result/dark/#Result
 
-6. AJAX
+6.  AJAX
 https://lamhotsimamora.github.io/Modern-Ajax-Garuda-Javascript/
 
-7. Syntax Templating  
+7.  Syntax Templating  
 https://jsfiddle.net/LamhotSimamora/k8bpb48z/embedded/js,html,result/dark/#Result
 https://jsfiddle.net/LamhotSimamora/chm4wx1a/embedded/js,html,result/dark/#Result
 https://jsfiddle.net/LamhotSimamora/655d1bon/2/embedded/js,html,result/dark/#Result
 https://jsfiddle.net/pdj35gv4/embedded/js,html,result/dark/#Result
 
-8. More 1
+8.  Event Keyup & Keydown (No Javascript)
+https://jsfiddle.net/LamhotSimamora/L32s6g9r/embedded/html,result/dark/#Result
+https://jsfiddle.net/LamhotSimamora/L32s6g9r/1/embedded/html,result/dark/#Result
+
+9.  More 1
 https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
 
-9. More 2
+10. More 2
 https://jsfiddle.net/LamhotSimamora/ukhasz6b/1/embedded/js,html,result/dark/#Result
 
-10. More 3
+11. More 3
 https://jsfiddle.net/LamhotSimamora/tgrhabj6/embedded/js,html,result/dark/#Result
 
 ## Demo On Youtube
