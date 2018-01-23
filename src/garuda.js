@@ -27,6 +27,22 @@ __gAeL()
 {
 var o = __gEt(_config_.all); return (this.index != undefined) ? o[this.index] : o ; 
 }
+insertContent(v)
+{
+if (v) {if (this.__ty__==false) {var x = this.getObj.innerHTML; this.getObj.innerHTML = x+v; }else if (this.__ty__==true || this.__ty__==null) {if (this.index===undefined) {for (var i = 0; i < this._gLe(); i++) {var x = this.getObj[i].innerHTML; this.getObj[i].innerHTML = x+v; } }else{if (this.index>this._gLe()) {return; } var x = this.getObj[this.index].innerHTML; this.getObj[this.index].innerHTML = x+v; } } } 
+}
+replaceContent(d)
+{
+if (d) {var k = d.key ? d.key : '',v = d.value ? d.value : ''; if (this.__ty__==false) {var x = this.getObj.innerHTML; x = x._replace(k,v); this.getObj.innerHTML = x; }else if (this.__ty__==true || this.__ty__==null) {if (this.index===undefined) {for (var i = 0; i < this._gLe(); i++) {var x = this.getObj[i].innerHTML; x = x._replace(k,v); this.getObj[i].innerHTML = x; } }else{if (this.index>this._gLe()) {return; } var x = this.getObj[this.index].innerHTML; x = x._replace(k,v); this.getObj[this.index].innerHTML = x; } } } 
+}
+findInContent(a)
+{
+if (this.__ty__ == false) {var x = this.getObj.innerHTML; return  x.search(a)==-1 ? false : x.search(a); }else{return undefined; } 
+}
+duplicateContent()
+{
+ if (this.__ty__ == false) {var x = this.getObj.innerHTML; this.getObj.innerHTML = x+x; } else if (this.__ty__ == true || this.__ty__ == null) {if (this.index === undefined) {for (var i = 0; i < this._gLe(); i++) {var x = this.getObj[i].innerHTML; this.getObj[i].innerHTML = x+x; } } else {if (this.index > this._gLe()) { return; } var x = this.getObj[this.index].innerHTML; this.getObj[this.index].innerHTML = x+x; } } 
+}
 copy()
 {
 if (this.__ty__==false) {if (this.getObj.value && this.getObj.value.length>0) {this.getObj.select(); _copy(); } } 
