@@ -44,7 +44,8 @@ __({
    Hello #username# !
 @end@
 ```
-<a href="https://jsfiddle.net/steoa1xn/1/">See on JSFiddle</a>
+### https://jsfiddle.net/steoa1xn/1/ Preview 1
+### https://jsfiddle.net/LamhotSimamora/4h1tbzgv Preview 2
 
 # IMPORTANT
 - if (el) with value # then it will be search the class of element
