@@ -10,7 +10,7 @@ let _configKey_ = {ku:'garuda-keyup-to', kd:'garuda-keydown-to'},_config_ = {cla
 class _$o$_ {
 constructor(data) 
 {
-if (data) this.o = (data.el === undefined) ? undefined : data.el; this.class = (data.class = undefined) ? undefined : data.class; this.c = (data.html === undefined) ? undefined : data.html; this.ty = (data.type === undefined) ? undefined : data.type; this.tg = (data.tag === undefined) ? undefined : data.tag; this.v = (data.value === undefined) ? undefined : data.value; this.l = (data.length === undefined) ? undefined : data.length; this.url = (data.url === undefined) ? undefined : data.url; this.dA = (data.data === undefined) ? undefined : data.data; this.mA = (data.method === undefined) ? undefined : data.method; this.sA = (data.setupAjax === undefined) ? undefined : data.setupAjax; this.image = (data.image === undefined) ? undefined : data.image; this.key_code = (data.keyCode === undefined) ? undefined : data.keyCode; this.attr = (data.attribute === undefined) ? undefined : data.attribute; this.index = (data.index === undefined) ? undefined : data.index; this.html = (data.html === undefined) ? undefined : data.html; this.fcs = (data.focus === undefined) ? undefined : data.focus; this.e = (data.event === undefined) ? undefined : data.event; this.ch = (data.checked === undefined) ? undefined : data.checked; this.data = null; this.__ty__ = undefined; if (this.o != undefined && (this.o === _config_.all)) { return this.getAllElement; } this.getById(); if (this.html != undefined) { if (_whatThis(this.html) === 'string') { this.setContent(this.html); } else if (_whatThis(this.html === 'object')) { if (this.getObj) { var L = this.getObj.length; (L === undefined) ? this._tS('x', this.html, this.getObj): this._tS(L, this.html, this.getObj); } } } if (this.v != undefined) { if (_whatThis(this.v) === 'string') { this.setValue(); } } if (this.fcs) { this.focus(); } if (this.e != undefined) { var when = this.e.when ? this.e.when : undefined; if (when != undefined) { var cb = this.e.callback ? this.e.callback : undefined; cb ? this.when(when, cb) : ''; } } if (this.__ty__ == false) { this.data = this.getObj.getAttribute(_gD); } if (this.ch!=undefined) {this.setChecked(this.ch ? true : false); } return this; 
+if (data) this.o = (data.el === undefined) ? undefined : data.el; this.class = (data.class = undefined) ? undefined : data.class; this.c = (data.html === undefined) ? undefined : data.html; this.ty = (data.type === undefined) ? undefined : data.type; this.tg = (data.tag === undefined) ? undefined : data.tag; this.v = (data.value === undefined) ? undefined : data.value; this.l = (data.length === undefined) ? undefined : data.length; this.url = (data.url === undefined) ? undefined : data.url; this.dA = (data.data === undefined) ? undefined : data.data; this.mA = (data.method === undefined) ? undefined : data.method; this.sA = (data.setupAjax === undefined) ? undefined : data.setupAjax; this.image = (data.image === undefined) ? undefined : data.image; this.key_code = (data.keyCode === undefined) ? undefined : data.keyCode; this.attr = (data.attribute === undefined) ? undefined : data.attribute; this.index = (data.index === undefined) ? undefined : data.index; this.html = (data.html === undefined) ? undefined : data.html; this.fcs = (data.focus === undefined) ? undefined : data.focus; this.e = (data.event === undefined) ? undefined : data.event; this.ch = (data.checked === undefined) ? undefined : data.checked; this.data = null; this.__ty__ = undefined; if (this.o != undefined && (this.o === _config_.all)) { return this.getAllElement; } this.getById(); if (this.html != undefined) {if (_whatThis(this.html) === 'string') { this.setContent(this.html); } else if (_whatThis(this.html === 'object')) {if (this.getObj) {var L = this.getObj.length; (L === undefined) ? this._tS('x', this.html, this.getObj): this._tS(L, this.html, this.getObj); } } } if (this.v != undefined) { if (_whatThis(this.v) === 'string') { this.setValue(); } } if (this.fcs) { this.focus(); } if (this.e != undefined) {let w = this.e.when ? this.e.when : undefined; if (w != undefined) {var cb = this.e.callback ? this.e.callback : undefined; cb ? this.when(w, cb) : ''; } } if (this.__ty__ == false) { this.data = this.getObj.getAttribute(_gD); } if (this.ch != undefined) { this.setChecked(this.ch ? true : false); } return this; 
 }
 setChecked(a) 
 {
@@ -98,6 +98,14 @@ return this.getObj ? this.getObj.length : undefined;
 get getLength()
 {
 return this._gLe();
+}
+setUrl(x)
+{
+x ? this.url = x : '';
+}
+setImage(x)
+{
+x ? this.image = x : '';
 }
 _gh() 
 {
