@@ -83,10 +83,15 @@ https://github.com/lamhotsimamora/Garuda-Javascript/archive/v.1.0.0.zip
 ## CDN For Development or Production (Recommended)
 ```
 https://www.cdn.lamhotsimamora.com/garuda2/ 
+https://bit.ly/Garuda2
 ```
 ## Copy this code to HTML
 ```
 <script type="text/javascript" src="https://www.cdn.lamhotsimamora.com/garuda2/"></script>
+```
+Or
+```
+<script type="text/javascript" src="https://bit.ly/Garuda2"></script>
 ```
 ------------------------------
 
