@@ -89,7 +89,7 @@ var k, v; if (d) { k = d.key ? d.key : undefined; v = d.value ? d.value : ''; } 
 }
 getById() 
 {
-if (this.o === undefined) { return undefined; } if (this.o.substring(0, 1) === _config_.class) {var x = (this.o.substring(1, this.o.length)); this.__ty__ = true; return (x != undefined) ? __gEc(x) : undefined; } else if (this.o.substring(0, 1) === _config_.tag) {this.__ty__ = null; var x = (this.o.substring(1, this.o.length)); return (x != undefined) ? __gEt(x) : undefined; } else { if (__gEi(this.o)) { this.__ty__ = false; return __gEi(this.o); } else { this.__ty__ = undefined; return undefined; } } 
+	if (this.o === undefined) { return undefined; } if (_whatThis(this.o)==='object') {this.__ty__ = 'o'; return this.o; } if (this.o.substring(0, 1) === _config_.class) {var x = (this.o.substring(1, this.o.length)); this.__ty__ = true; return (x != undefined) ? __gEc(x) : undefined; } else if (this.o.substring(0, 1) === _config_.tag) {this.__ty__ = null; var x = (this.o.substring(1, this.o.length)); return (x != undefined) ? __gEt(x) : undefined; }else {if (__gEi(this.o)) { this.__ty__ = false; return __gEi(this.o); } else { this.__ty__ = undefined; return undefined; } } 
 }
 _gLe()
 {
