@@ -77,7 +77,7 @@ git clone https://github.com/lamhotsimamora/Garuda-Javascript.git
 ```
 
 ## Download Source Code
-https://github.com/lamhotsimamora/Garuda-Javascript/archive/v.1.0.0.zip
+https://github.com/lamhotsimamora/Garuda-Javascript/archive/master.zip
 
 --------------------------------
 ## CDN For Development or Production (Recommended)
