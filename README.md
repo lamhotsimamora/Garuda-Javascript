@@ -132,16 +132,19 @@ https://jsfiddle.net/LamhotSimamora/L32s6g9r/1/embedded/html,result/dark/#Result
 9. Duplicate Content, Insert Content, & Find String in Content
 https://jsfiddle.net/LamhotSimamora/sbx72gsa/1/embedded/js,html,result/dark/#Result
 
-10.  More 1
+10. Custom Component 
+https://codepen.io/lamhot/pen/aqzOvj?editors=1010
+
+11. More 1
 https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
 
-11. More 2
+12. More 2
 https://jsfiddle.net/LamhotSimamora/ukhasz6b/1/embedded/js,html,result/dark/#Result
 
-12. More 3
+13. More 3
 https://jsfiddle.net/LamhotSimamora/tgrhabj6/embedded/js,html,result/dark/#Result
 
-13. More 4
+14. More 4
 https://jsfiddle.net/LamhotSimamora/vaz2sq1L/embedded/js,html,result/dark/#Result
 https://jsfiddle.net/LamhotSimamora/vaz2sq1L/1/embedded/js,html,result/dark/#Result
 
