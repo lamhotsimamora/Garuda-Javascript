@@ -135,16 +135,19 @@ https://jsfiddle.net/LamhotSimamora/sbx72gsa/1/embedded/js,html,result/dark/#Res
 10. Custom Component 
 https://codepen.io/lamhot/pen/aqzOvj?editors=1010
 
-11. More 1
+11. Execute javascript code in HTML & pretty syntax auto templating
+https://codepen.io/lamhot/pen/qxEbYo
+
+12. More 1
 https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
 
-12. More 2
+13. More 2
 https://jsfiddle.net/LamhotSimamora/ukhasz6b/1/embedded/js,html,result/dark/#Result
 
-13. More 3
+14. More 3
 https://jsfiddle.net/LamhotSimamora/tgrhabj6/embedded/js,html,result/dark/#Result
 
-14. More 4
+15. More 4
 https://jsfiddle.net/LamhotSimamora/vaz2sq1L/embedded/js,html,result/dark/#Result
 https://jsfiddle.net/LamhotSimamora/vaz2sq1L/1/embedded/js,html,result/dark/#Result
 
