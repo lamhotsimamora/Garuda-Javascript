@@ -138,16 +138,19 @@ https://codepen.io/lamhot/pen/aqzOvj?editors=1010
 11. Execute javascript code in HTML & pretty syntax auto templating
 https://codepen.io/lamhot/pen/qxEbYo
 
-12. More 1
+12. PUG HTML
+https://codepen.io/lamhot/pen/RQNVbm?editors=1010
+
+13. More 1
 https://jsfiddle.net/LamhotSimamora/eq6qkpo8/1/embedded/js,html,result/dark/
 
-13. More 2
+14. More 2
 https://jsfiddle.net/LamhotSimamora/ukhasz6b/1/embedded/js,html,result/dark/#Result
 
-14. More 3
+15. More 3
 https://jsfiddle.net/LamhotSimamora/tgrhabj6/embedded/js,html,result/dark/#Result
 
-15. More 4
+16. More 4
 https://jsfiddle.net/LamhotSimamora/vaz2sq1L/embedded/js,html,result/dark/#Result
 https://jsfiddle.net/LamhotSimamora/vaz2sq1L/1/embedded/js,html,result/dark/#Result
 
