@@ -1,4 +1,4 @@
-# A Modern Query Of Javascript | Garuda Javacript 2 | ES5 & ES6 Style
+# A Modern Framework  Of Javascript | Garuda Javacript 2 | ES5 & ES6 Style
 
 ## Features
 - Support Template Syntax (single data) and *new* (multiple data)
