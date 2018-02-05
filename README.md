@@ -7,6 +7,7 @@
 - Support Defined Event Multi Element
 - Support Ajax
 - Pretty Code
+- *new* Support Element Library ( https://github.com/lamhotsimamora/Garuda-Javascript-Component )
 
 ### Preview Syntax 
 ```
