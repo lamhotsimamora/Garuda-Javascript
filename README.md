@@ -53,6 +53,7 @@ __({
 - if (el) with value without # it will be search the id of element
 - if (el) with value * only it will be search all of element
 - if (el) with value @ then it will be search the tag of element
+- if (el) with value < in first character and > in last character then it will be render as query selector
 ```
 $id = __({
   el:"id"
