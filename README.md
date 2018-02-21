@@ -156,6 +156,10 @@ https://jsfiddle.net/LamhotSimamora/tgrhabj6/embedded/js,html,result/dark/#Resul
 https://jsfiddle.net/LamhotSimamora/vaz2sq1L/embedded/js,html,result/dark/#Result
 https://jsfiddle.net/LamhotSimamora/vaz2sq1L/1/embedded/js,html,result/dark/#Result
 
+17. Document Query Selector
+https://codepen.io/lamhot/pen/LQdOvz?editors=1010
+https://codepen.io/lamhot/pen/eVrWRr?editors=1010
+
 ## Demo On Youtube
 1. part 1 https://www.youtube.com/watch?v=uyHGiiSn2wo
 2. part 2 https://www.youtube.com/watch?v=xwGnKWGXPx4
