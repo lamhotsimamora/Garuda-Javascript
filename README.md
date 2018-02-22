@@ -8,6 +8,7 @@
 - Support Ajax
 - Pretty Code
 - *new* Support Element Library ( https://github.com/lamhotsimamora/Garuda-Javascript-Component )
+- *new* Set up to all object of input ( https://codepen.io/lamhot/pen/GQGYoL )
 
 ### Preview Syntax 
 ```
