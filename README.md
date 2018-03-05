@@ -9,7 +9,7 @@
 - Pretty Code
 - *new* Support Element Library ( https://github.com/lamhotsimamora/Garuda-Javascript-Component )
 - *new* Set up to all object of input ( https://codepen.io/lamhot/pen/GQGYoL )
-- *new* Animate fade in and fade out ( https://codepen.io/lamhot/pen/aqxxLw  | https://codepen.io/lamhot/pen/pamrbM?editors=1010)
+- *new* Animate fade in and fade out ( https://codepen.io/lamhot/pen/aqxxLw  | https://codepen.io/lamhot/pen/pamrbM?editors=1010 | https://codepen.io/lamhot/pen/LQKPEm?editors=1010 )
 
 ### Preview Syntax 
 ```
