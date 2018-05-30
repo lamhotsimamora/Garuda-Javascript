@@ -11,8 +11,8 @@
 - *new* Set up all of input (support method chaining) ( https://codepen.io/lamhot/pen/GQGYoL )
 - *new* Animate fade in and fade out ( https://codepen.io/lamhot/pen/aqxxLw  | https://codepen.io/lamhot/pen/pamrbM?editors=1010 | https://codepen.io/lamhot/pen/LQKPEm?editors=1010 )
 - *new* Routing URL (https://lamhotsimamora.github.io/Garuda-Route-Test/) (https://github.com/lamhotsimamora/Garuda-Route-Test) 
-- *new* Garuda Template
-- *new* Garuda Import
+- *new* Garuda Template (https://github.com/lamhotsimamora/Garuda-Template-Test) (https://lamhotsimamora.github.io/Garuda-Template-Test/)
+- *new* Garuda Import 
 
 ### Preview Syntax 
 ```
