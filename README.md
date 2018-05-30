@@ -12,7 +12,7 @@
 - *new* Animate fade in and fade out ( https://codepen.io/lamhot/pen/aqxxLw  | https://codepen.io/lamhot/pen/pamrbM?editors=1010 | https://codepen.io/lamhot/pen/LQKPEm?editors=1010 )
 - *new* Routing URL (https://lamhotsimamora.github.io/Garuda-Route-Test/) (https://github.com/lamhotsimamora/Garuda-Route-Test) 
 - *new* Garuda Template (https://github.com/lamhotsimamora/Garuda-Template-Test) (https://lamhotsimamora.github.io/Garuda-Template-Test/)
-- *new* Garuda Import 
+- *new* Garuda Import (https://github.com/lamhotsimamora/Test-Garuda-Import) (https://lamhotsimamora.github.io/Test-Garuda-Import/)
 
 ### Preview Syntax 
 ```
