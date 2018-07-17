@@ -14,5 +14,5 @@
 
 ### CDN Garuda Route
 ```
-	
+  https://www.cdn.lamhotsimamora.com/garuda-route/
 ```
