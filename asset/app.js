@@ -7,8 +7,8 @@ $page_one = [
 
 	`Welcome to <strong>Garuda Javascript 2</strong>
 	<br><hr>
-	Garuda Javascript is <i style="color: red">a free and open source library</i> 
-	for make javascript code to be easy`
+	Garuda Javascript is <i style="color: red">a free and open source library </i> 
+	for make javascript to be fun`
 ];
 
 $page_two = [
