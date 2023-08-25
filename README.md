@@ -3,7 +3,7 @@
 
 ### CDN Garuda Javascript 
 ```
-  https://www.cdn.lamhotsimamora.com/garuda2/
+  (https://cdn.jsdelivr.net/gh/lamhotsimamora/garuda-javascript@master/src/garuda.js)
 ```
 
 ### CDN Garuda Route
