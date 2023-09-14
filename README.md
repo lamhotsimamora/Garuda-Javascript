@@ -8,5 +8,5 @@
 
 ### CDN Garuda Route
 ```
-  https://www.cdn.lamhotsimamora.com/garuda-route/
+https://cdn.jsdelivr.net/gh/lamhotsimamora/garuda-javascript@master/src/garuda-route.js
 ```
