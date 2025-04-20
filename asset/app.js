@@ -19,7 +19,7 @@ $page_two = [
 	`Instalation
 	<br><hr>
 	<textarea rows="2" cols="130">
-	<script src="https://www.cdn.lamhotsimamora.com/garuda2/" type="text/javascript"></script>
+	<script src=" https://cdn.jsdelivr.net/gh/lamhotsimamora/garuda-javascript@master/src/garuda.js" type="text/javascript"></script>
 	</textarea>
 	<br>
 	Copy this code and paste inside your HTML`
@@ -27,9 +27,9 @@ $page_two = [
 
 
 $page_three = [
-	`Masa Akan Datang<hr>`,
+	`Click this link for syntax garuda javascript <a href="https://lamhotsimamora.github.io/Garuda-Javascript-Syntax/">Click</a>`,
 	
-	`COMING SOON <hr>`
+	`<hr>`
 ]
 
 $language.make('page-one',$page_one);
