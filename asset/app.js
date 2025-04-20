@@ -27,9 +27,8 @@ $page_two = [
 
 
 $page_three = [
-	`Click this link for syntax garuda javascript <a href="https://lamhotsimamora.github.io/Garuda-Javascript-Syntax/">Click</a>`,
-	
-	`<hr>`
+	`Click this link for syntax garuda javascript <a href="https://lamhotsimamora.github.io/Garuda-Javascript-Syntax/">Click</a>,
+	<hr>`
 ]
 
 $language.make('page-one',$page_one);
